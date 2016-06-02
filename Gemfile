@@ -35,7 +35,7 @@ gem 'cancancan', '~> 1.14'
 gem 'devise', '~> 4.1', '>= 4.1.1'
 gem 'omniauth', '~> 1.3', '>= 1.3.1'
 gem 'omniauth-github', '~> 1.1', '>= 1.1.2'
-gem 'dotenv-rails'
+gem 'dotenv-rails', '~> 2.1.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

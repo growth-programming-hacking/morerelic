@@ -266,7 +266,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   database_cleaner (~> 1.5.3)
   devise (~> 4.1, >= 4.1.1)
-  dotenv-rails
+  dotenv-rails (~> 2.1.1)
   factory_girl_rails (~> 4.7.0)
   ffaker (~> 2.2.0)
   jquery-rails
