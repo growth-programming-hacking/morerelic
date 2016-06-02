@@ -31,6 +31,10 @@ gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
 gem 'capistrano-rails', group: :development
+gem 'cancancan', '~> 1.14'
+gem 'devise', '~> 4.1', '>= 4.1.1'
+gem 'omniauth', '~> 1.3', '>= 1.3.1'
+gem 'omniauth-github', '~> 1.1', '>= 1.1.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -39,7 +43,9 @@ group :development, :test do
   gem 'annotate', '~> 2.7.1'
   gem 'simplecov', '~> 0.11.2'
   gem 'capybara', '~> 2.7.1'
-  gem 'faker', '1.6.3'
+  gem 'ffaker', '~> 2.2.0'
+  gem 'database_cleaner', '~> 1.5.3'
+  gem 'factory_girl_rails', '~> 4.7.0'
 end
 
 group :development do
