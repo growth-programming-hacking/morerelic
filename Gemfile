@@ -35,6 +35,7 @@ gem 'cancancan', '~> 1.14'
 gem 'devise', '~> 4.1', '>= 4.1.1'
 gem 'omniauth', '~> 1.3', '>= 1.3.1'
 gem 'omniauth-github', '~> 1.1', '>= 1.1.2'
+gem 'dotenv-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -46,6 +47,7 @@ group :development, :test do
   gem 'ffaker', '~> 2.2.0'
   gem 'database_cleaner', '~> 1.5.3'
   gem 'factory_girl_rails', '~> 4.7.0'
+  gem 'simplecov', '~> 0.11.2'
 end
 
 group :development do
