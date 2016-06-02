@@ -19,5 +19,9 @@
 #
 
 Rails.application.routes.draw do
-  devise_for :users
+  devise_scope :users do
+     get '/sign_in', to: 'users/sessions#new'
+     post '/sign_in', to: 'users/sessions#create'
+     delete '/sign_out', to: 'users/sessions#destroy'
+  end
 end
